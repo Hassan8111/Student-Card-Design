@@ -1,0 +1,92 @@
+body {
+background-color: aliceblue;
+}
+
+.student-card {
+background-color: white;
+border-color: blue;
+}
+
+h1 {
+color: blue;
+}
+
+h2 {
+color: black;
+}
+
+p {
+color: black;
+}
+
+button {
+background-color: lightblue;
+color: blue;
+}
+
+.green {
+border-color: green;
+}
+
+.green h1 {
+color: green;
+}
+
+.green button {
+background-color: lightgreen;
+color: green;
+}
+
+.orange {
+border-color: orange;
+}
+
+.orange h1 {
+color: orange;
+}
+
+.orange button {
+background-color: moccasin;
+color: chocolate;
+}
+
+.purple {
+border-color: purple;
+}
+
+.purple h1 {
+color: purple;
+}
+
+.purple button {
+background-color: lavender;
+color: purple;
+}
+
+.red {
+border-color: red;
+}
+
+.red h1 {
+color: red;
+}
+
+.red button {
+background-color: pink;
+color: red;
+}
+.student-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.student-card {
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
